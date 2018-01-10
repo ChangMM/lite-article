@@ -1,0 +1,41 @@
+/* pages/about.wxss */
+#about{
+  padding:10px 20px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: PingFangSC-Regular,Helvetica Neue,Helvetica,Lantinghei SC,SimSun,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+}
+.label{
+  color: #333;
+  margin-bottom: 4px;
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+}
+a{
+  color: #fcae26;
+  text-decoration: underline;
+}
+.intro{
+  color: #666;
+  font-size: 13px;
+  text-align: justify;
+  padding-left: 20px;
+  display: block;
+}
+.zan-wrap{
+  text-align: center;
+}
+.zan{
+  margin-top: 10px;
+  width: 360rpx;
+  height: 360rpx;
+}

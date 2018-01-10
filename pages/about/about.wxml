@@ -1,0 +1,25 @@
+<view id="about">
+  <text class="title">关于『每日一文』</text>
+  <view class="content">
+    <view>
+      <text class='label'>１.这是个什么东西？</text>
+      <text class="intro">每天随机推荐一篇散文。</text>
+    </view>
+    <view>
+      <text class='label'>２.为什么要做这个东西？</text>
+      <text class="intro">太闲了。</text>
+    </view>
+    <view>
+      <text class='label'>３.不是有类似的东西吗？</text>
+      <text class="intro">是的，但我觉得类似的产品上面文字的越来越矫情了，就又做了一个。</text>
+    </view>
+    <view>
+      <text class='label'>４.有什么意义？</text>
+      <text class="intro">对我而言，就权当消磨时间了，对读者而言，就按每天一篇 1000 字，一年 300 天来说，一年可以大概有 30 万字的阅读量，不多也不少。</text>
+      <text class="intro">多读一点肯定比不读要好。</text>
+    </view>
+    <!-- <view class="zan-wrap">
+      <image class="zan" mode='aspectFit' src="../../static/img/zan.png"></image>
+    </view> -->
+  </view>
+</view>

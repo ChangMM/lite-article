@@ -1,0 +1,121 @@
+/**index.wxss**/
+.article-page{
+  top:10px;
+  left:10px;
+  right:10px;
+  bottom:30px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 20px #CCC;
+  padding:20px 20px 50px;
+  background-color: #fff;
+}
+.page-top{
+  top:0;
+  left:0;
+  right:0;
+  height: 40px;
+  z-index: 1;
+  border-radius: 4px;
+  position: absolute;
+  background-image: -webkit-linear-gradient(top, #fff, rgba(255,255,255,0));
+}
+.page-bottom{
+  right:0;
+  left:0;
+  bottom:50px;
+  height: 30px;
+  z-index: 1;
+  position: absolute;
+  background-image: -webkit-linear-gradient(bottom, #fff, rgba(255,255,255,0));
+}
+.article-wrap{
+  height: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+.article-wrap::-webkit-scrollbar{
+  width: 0px;
+  height:0px;
+}
+.article-wrap::-webkit-scrollbar-thumb{
+  width:0px;
+}
+.loading-img{
+  position: absolute;
+  top:160px;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  left:0;
+  right:0;
+  margin: auto;
+}
+.article-title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+}
+.article-author{
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px dashed #eee;
+  display: block;
+}
+.article-content{
+  color: #555;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.button-wrap{
+  position: absolute;
+  height: 50px;
+  left:20px;
+  right:20px;
+  bottom: 0;
+  border-top: 1px solid #f4f4f4;
+  text-align: center;
+}
+.button{
+  width: 100px;
+  height: 28px;
+  color: #666;
+  line-height: 28px;
+  border-radius: 2px;
+  margin-top: 11px;
+  display: inline-block;
+  font-size: 12px;
+}
+.button:last-child{
+  margin-left: 20px;
+}
+.button:active{
+  background-color: darken(#f4f4f4, 5%);
+}
+.footer{
+  height: 30px;
+  line-height: 30px;
+  left:0;
+  right:0;
+  bottom:0;
+  position: absolute;
+  text-align: center;
+}
+.about{
+  font-size: 24rpx;
+  color: #666;
+  display: inline-block
+}
+.weibo{
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+}

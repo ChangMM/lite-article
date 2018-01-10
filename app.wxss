@@ -1,0 +1,13 @@
+/**app.wxss**/
+page{
+  height:100%;
+}
+.container {
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 1.5px;
+  overflow: hidden;
+  font-family: PingFangSC-Regular,Helvetica Neue,Helvetica,Lantinghei SC,SimSun,sans-serif;
+  -webkit-font-smoothing: antialiased;
+} 
