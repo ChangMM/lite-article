@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="article-page">
+    <view class="page-top"></view>
+    <view class="page-bottom"></view>
+    <scroll-view scroll-y class="article-wrap" scroll-top="{{scrollTop}}">
+      <image src="https://ued.bingyan.net/static/img/loading.gif" wx:if="{{article.title == ''}}" class="loading-img" alt="加载中"></image>
+      <text class="article-title">{{article.title}}</text>
+      <text class="article-author">{{article.author}}</text>
+      <rich-text class="article-content" nodes="{{article.content}}"></rich-text>
+    </scroll-view>
+    <view class="button-wrap">
+      <button class="button" bindtap="getMoreArticle">再来一篇</button>
+      <button class="button" open-type="share">奇文共欣赏</button>
+    </view>
+  </view>
+  <view class="footer">
+    <!-- <image class="weibo" mode='aspectFit' src="https://ued.bingyan.net/static/img/weibo.png" alt=""> </image> -->
+    <navigator url="/pages/about/about" class="about">关于这个</navigator>
+  </view>
+</view>

@@ -6,6 +6,7 @@ Page({
   data: {
     scrollTop: 0,
     article: {
+      article_id: '',
       title: '',
       author: '',
       content: ''
@@ -18,7 +19,7 @@ Page({
   getMoreArticle: function() {
     let self = this
     wx.request({
-      url: "https://ued.bingyan.net/api/random",
+      url: "http://localhost:5000/api/random",
       success: function (res) {
         let data = res.data.data
         data.content = data.content.replace(/<p>/ig, "<p style='line-height:1.6;color:#333;font-size:15px;margin:10px 0px;text-align:justify;text-indent:2em;letter-spacing:1.5px;'>")
@@ -38,7 +39,7 @@ Page({
   onLoad: function () {
     let self = this
     wx.request({
-      url: "https://ued.bingyan.net/api/daily",
+      url: "http://localhost:5000/api/daily",
       success: function (res) {
         let data = res.data.data
         data.content = data.content.replace(/<p>/ig, "<p style='line-height:1.6;color:#333;font-size:15px;margin:10px 0px;text-align:justify;text-indent:2em;letter-spacing:1.5px;'>")
